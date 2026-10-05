@@ -1,0 +1,17 @@
+Add these on Vercel: Project > Settings > Environment Variables.
+Never put real values in this file or send them to anyone.
+
+GEMINI_API_KEY=            (from aistudio.google.com)
+ACCESS_CODE=               (a secret word you choose; the site asks for it once)
+FOUNDER_NAME=Manas
+FOUNDER_EMAIL=             (optional, only shown if someone asks who made Jars)
+
+WHATSAPP_TOKEN=            (from Meta developers)
+WHATSAPP_PHONE_NUMBER_ID=  (from Meta developers)
+WHATSAPP_VERIFY_TOKEN=     (any word you choose, same one you type in Meta)
+WHATSAPP_ALLOWED=          (optional: your number(s) with country code, no +, separated by commas)
+
+Optional:
+GEMINI_MODEL=              (default gemini-2.5-flash; change if AI Studio shows a newer name)
+GRAPH_VERSION=             (default v23.0)
+GEMINI_IMAGE_MODEL=        (optional, default gemini-2.5-flash-image; real AI pictures. Some accounts need billing turned on in Google AI Studio.)
